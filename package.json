@@ -1,0 +1,19 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass styles.scss styles.css",
+    "start": "npm run compile-sass && electron .",
+    "build": "yarn electron-forge package"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "electron": "^25.2.0",
+    "node-sass": "^9.0.0"
+  }
+}

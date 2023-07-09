@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta charset="UTF-8"/>
+    <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+    />
+    <title></title>
+</head>
+<body>
+<div class="menu">
+    <ol>
+        <li class="menu-item">
+            <div class="a"  tabindex="0" id="language"></div>
+            <ol class="sub-menu">
+                <li class="menu-item" id="li1"><div class="a" tabindex="0" id="ru">Русский</div></li>
+                <li class="menu-item" id="li2"><div class="a" tabindex="0" id="en">English</div></li>
+            </ol>
+        </li>
+        <li class="menu-item">
+            <div class="a" tabindex="0" id="parts"></div>
+            <ol class="sub-menu">
+                <li class="menu-item"><a class="a" tabindex="0" id="parts1" href="http://rulesphs.beget.tech/" target="_blank"></a></li>
+                <li class="menu-item"><div class="a" tabindex="0" id="parts2"></div></li>
+                <li class="menu-item"><div class="a" tabindex="0" id="parts3"></div></li>
+<!--                <li class="menu-item"><div class="a" tabindex="0">Презентация</div></li>-->
+<!--                fixme bug if 4 items in mobile-->
+            </ol>
+        </li>
+    </ol>
+</div>
+<div id="form">
+    <div class="col-3 input-effect has-title">
+        <input class="effect-19" type="text" id="m">
+        <label for="m" id="ml"></label>
+        <span class="focus-border">
+            	<i></i>
+            </span>
+    </div>
+    <div class="col-3 input-effect has-title">
+        <input class="effect-19" type="text" id="h">
+        <label for="h" id="hl"></label>
+        <span class="focus-border">
+            	<i></i>
+            </span>
+    </div>
+    <button id="button" class="glow-on-hover" disabled></button>
+</div>
+<p id="res"></p>
+</body>
+<script src="./script.js"></script>
+</html>
