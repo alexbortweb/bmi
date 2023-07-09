@@ -1,5 +1,8 @@
 Исполняемые файлы под разные операционные системы:
-https://github.com/alexbortweb/bmi/releases
+Windows
+https://drive.google.com/file/d/1KiShm-M4cJgAet8Mvn1jGrHat7dSPfoS/view?usp=sharing
+Linux
+https://drive.google.com/file/d/1ZEoLb2BddRTe32tABwzio9nD1vdqtgMH/view?usp=sharing
 Чтобы построить под разные операционные системы, выполните в консоли
 ```shell
 electron-forge package --platform win32
